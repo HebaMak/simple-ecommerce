@@ -6,7 +6,7 @@ const Favorites = () => {
   const {favorites} = useContext(favContext)
   const [favProducts , setFavProducts] = useState([])
   const [error , setError] = useState(false)
-  const [Loading , setLoading] = useState(true)
+  const [loading , setLoading] = useState(true)
 
   console.log(favorites)
 
@@ -31,7 +31,10 @@ const Favorites = () => {
 
 
   return (
-    <div className="fav-products"> 
+    <div className="fav-products">
+      {loading && <h3>Loading...</h3>}
+      {error && <h3>an error is occures...</h3>}
+      {} 
       { favProducts && 
         favProducts.map(product => {
           return(

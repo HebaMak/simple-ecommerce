@@ -1,6 +1,6 @@
 import heart from '../assets/heart-regular.svg'
 import heartSolid from '../assets/heart-solid.svg'
-import { useState , useContext , useEffect} from 'react'
+import { useContext } from 'react'
 import { favContext } from '../context/FavouritesContext'
 
 
