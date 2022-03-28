@@ -8,8 +8,6 @@ const Favorites = () => {
   const [error , setError] = useState(false)
   const [loading , setLoading] = useState(true)
 
-  console.log(favorites)
-
   useEffect(()=> {
     const promises = favorites.map(id => {
       return fetch(`https://fakestoreapi.com/products/${id}`)
@@ -23,7 +21,8 @@ const Favorites = () => {
       setFavProducts(results)
       setLoading(false)
     })
-    .catch(err => {
+    .catch(err => { 
+      console.log(err);
       setError(true)
       setLoading(false)
     })
@@ -32,9 +31,8 @@ const Favorites = () => {
 
   return (
     <div className="fav-products">
-      {loading && <h3>Loading...</h3>}
-      {error && <h3>an error is occures...</h3>}
-      {} 
+      {loading && <h3> Loading...</h3>}
+      {error && <h3> an error is occures...</h3>}
       { favProducts && 
         favProducts.map(product => {
           return(
