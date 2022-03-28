@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ProductContext from './context/ProductContext';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <ProductContext >
     <App />
-  </React.StrictMode>,
+  </ProductContext>,
   document.getElementById('root')
 );
 
