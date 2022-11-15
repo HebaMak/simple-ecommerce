@@ -8,7 +8,7 @@ const useFetch = (url) => {
   useEffect (()=>{
     fetch(url)
     .then ( res => {
-      if(!res.ok) {throw Error ('colud not fetch data')}
+      if(!res.ok) {throw Error ('could not fetch data')}
       return res.json()
     })
     .then (data => {
