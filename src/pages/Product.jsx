@@ -9,7 +9,7 @@ const Product = ({product}) => {
     <>
       {product && (
         <div value={title} key={id} className='product'>
-          <Link to={`/product/${product.id}`} img={image} >
+          <Link to={`/product/${id}`} >
             <img src={image} alt={title} className='product-image'/>
             <h3 className='product-description'>{title}</h3>
           </Link>
