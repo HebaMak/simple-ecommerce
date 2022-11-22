@@ -6,3 +6,6 @@
 - the page consists of title, Navbar contains two pages, the categories buttons and all products like that:
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669116234/react-apps/qhyrkbamwpey3wc7xsxh.png)](https://some-url.dev/)
+
+- the favorite page contains all products that user makes it favorite
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669116233/react-apps/ughysxl72ha7g5bmmmwx.png)](https://some-url.dev/)
