@@ -26,3 +26,7 @@
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231366/react-apps/wzf3gxhptq3gqvlb3h1o.png)](https://some-url.dev/)
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231367/react-apps/wfggksvgjr0wxn0so1lq.png)](https://some-url.dev/)
+
+
+- clicking on the All Products button get all products 
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231367/react-apps/avxpqgacyza43us1k6sy.png)](https://some-url.dev/)
