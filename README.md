@@ -18,3 +18,5 @@
 - clicking of each button filter out the products to that related to clicked button like that:
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231366/react-apps/hiybah7xxyjnww9p4dw3.png)](https://some-url.dev/)
+
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231367/react-apps/njggz8vtssgb04sxb48q.png)](https://some-url.dev/)
