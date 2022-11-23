@@ -10,7 +10,6 @@
 - the favorite page contains all products that user makes it favorite
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669116233/react-apps/ughysxl72ha7g5bmmmwx.png)](https://some-url.dev/)
 
-- each product has an image and name, these data fetched from the file of products data
+- each product has an image, rating and name, these data fetched from the API , and heart to let the product favorite
 
-[![Header](https://res.cloudinary.com/hapiii/image/upload/v1668539691/HYF/React/wfdefzmjykribce9ekyd.jpg)](https://some-url.dev/)
-[![Header](https://res.cloudinary.com/hapiii/image/upload/v1668539691/HYF/React/hyyi9vawomyhyzwclztu.jpg)](https://some-url.dev/)
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231585/react-apps/woekupkqztv15fi2aokh.jpg)](https://some-url.dev/)
