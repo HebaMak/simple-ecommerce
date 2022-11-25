@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+## eCommerce React app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- project link on Netlify: https://hapiii-simple-ecommerce.netlify.app
+- the app fetch the data of products and categories buttons from this API: https://fakestoreapi.com/products.
 
-## Available Scripts
+- the page consists of title, Navbar contains two pages, the categories buttons and all products like that:
 
-In the project directory, you can run:
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669116234/react-apps/qhyrkbamwpey3wc7xsxh.png)](https://some-url.dev/)
 
-### `npm start`
+- the favorite page contains all products that user makes it favorite
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669116233/react-apps/ughysxl72ha7g5bmmmwx.png)](https://some-url.dev/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- each product has an image, rating and name, these data fetched from the API , and heart to let the product favorite
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231585/react-apps/woekupkqztv15fi2aokh.jpg)](https://some-url.dev/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- clicking of each button filter out the products to that related to clicked button like that:
 
-### `npm run build`
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231366/react-apps/hiybah7xxyjnww9p4dw3.png)](https://some-url.dev/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231366/react-apps/wzf3gxhptq3gqvlb3h1o.png)](https://some-url.dev/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231367/react-apps/njggz8vtssgb04sxb48q.png)](https://some-url.dev/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231367/react-apps/wfggksvgjr0wxn0so1lq.png)](https://some-url.dev/)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- clicking on the All Products button get all products 
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231367/react-apps/avxpqgacyza43us1k6sy.png)](https://some-url.dev/)
