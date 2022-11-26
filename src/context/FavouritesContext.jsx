@@ -26,10 +26,6 @@ const FavouritesContext = (props) => {
     }
   };
 
-  // useEffect(() => {
-  //   localStorage.setItem('favorites', JSON.stringify(favorites))
-  // }, [favorites]);
-
   return (
     <favContext.Provider value={{ handleFavorite, isFav, favorites }}>
       {props.children}
